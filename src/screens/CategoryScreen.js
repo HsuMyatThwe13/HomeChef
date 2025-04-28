@@ -14,22 +14,22 @@ const screenWidth = Dimensions.get('window').width;
 const categories = [
   {
     name: 'Breakfast',
-    image: require('../assets/breakfast.jpg'),
+    image: require('../../assets/img/breakfast.jpg'),
     description: 'Kickstart your day with energy and focus.',
   },
   {
     name: 'Lunch',
-    image: require('../assets/lunch.jpg'),
+    image: require('../../assets/img/lunch.jpg'),
     description: 'Refuel your body during the day’s busiest hours.',
   },
   {
     name: 'Dinner',
-    image: require('../assets/dinner.jpg'),
+    image: require('../../assets/img/dinner.jpg'),
     description: 'End the day with a satisfying and balanced meal.',
   },
   {
     name: 'Snack',
-    image: require('../assets/snack.jpg'),
+    image: require('../../assets/img/snack.jpg'),
     description: 'Small bites to keep you going between meals.',
   },
 ];

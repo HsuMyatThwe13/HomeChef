@@ -17,7 +17,7 @@ export default function PancakeScreen({ navigation }) {
 
         {/* Pancake Image */}
         <Image
-          source={require('../assets/pancake.jpg')}
+          source={require('../../assets/img/pancake.jpg')}
           style={styles.image}
           resizeMode="cover"
         />

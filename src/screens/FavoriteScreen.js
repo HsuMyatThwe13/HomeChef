@@ -5,10 +5,10 @@ import { Ionicons } from '@expo/vector-icons';
 export default function FavoritesScreen({ navigation }) {
   // Initial recipe data with favorites set to Pancakes and Salad
   const [recipes, setRecipes] = useState([
-    { id: 1, title: 'Pancakes', shortDescription: 'Fluffy breakfast treat', image: require('../assets/pancake.jpg'), isFavorite: true },
-    { id: 2, title: 'Salad', shortDescription: 'Fresh and healthy', image: require('../assets/salad.jpg'), isFavorite: true },
-    { id: 3, title: 'Pizza', shortDescription: 'Cheesy goodness', image: require('../assets/pizza.jpg'), isFavorite: false },
-    { id: 4, title: 'Beef Steak', shortDescription: 'Juicy grilled steak', image: require('../assets/beefstake.jpg'), isFavorite: false },
+    { id: 1, title: 'Pancakes', shortDescription: 'Fluffy breakfast treat', image: require('../../assets/img/pancake.jpg'), isFavorite: true },
+    { id: 2, title: 'Salad', shortDescription: 'Fresh and healthy', image: require('../../assets/img/salad.jpg'), isFavorite: true },
+    { id: 3, title: 'Pizza', shortDescription: 'Cheesy goodness', image: require('../../assets/img/pizza.jpg'), isFavorite: false },
+    { id: 4, title: 'Beef Steak', shortDescription: 'Juicy grilled steak', image: require('../../assets/img/beefstake.jpg'), isFavorite: false },
   ]);
 
   // Filter favorites
