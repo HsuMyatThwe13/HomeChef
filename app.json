@@ -2,7 +2,7 @@
   "expo": {
     "name": "Homechef",
     "slug": "Homechef",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.hsu_myat_thwe.Homechef"
+      "package": "com.hsu_myat_thwe.Homechef",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -29,6 +30,9 @@
       "eas": {
         "projectId": "901e4791-2bcf-4489-9693-fe07fda71243"
       }
-    }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }
