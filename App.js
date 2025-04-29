@@ -85,7 +85,7 @@ export default function App() {
       >
         <Tab.Screen name="Home" component={HomeStack} />
         <Tab.Screen name="Categories" component={CategoryStack} />
-        <Tab.Screen name="Favorites" component={FavoritesStack} />
+        <Tab.Screen name="FavoritesMain" component={FavoritesStack} />
         <Tab.Screen name="Own Recipe" component={AddRecipeScreen} />
       </Tab.Navigator>
     </NavigationContainer>
